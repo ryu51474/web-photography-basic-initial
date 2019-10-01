@@ -10,6 +10,8 @@ html(lang="en")
     body
         //- (etiqueta)#(id=).(classe o class) ----- detale: en pug los comentarios no pueden ir en la misma linea que en codigo valido
         header#header.header
+            a(href="/").logo
+                img(src="./assets/img/logo.png", alt="")
             .topbar
                 .topbar__icon
                     i.fas.fa-user
@@ -17,5 +19,10 @@ html(lang="en")
                 .topbar__icon
                     i.fas.fa-user-plus
                     span Resgistrate
+                .toggle-menu
+                    #toggle-menu.toggle-menu__icon
+                        .first-bar
+                        .second-bar
+                        .third-bar
         aside#sidebar.sidebar aside.sidebar 
         main.main main
