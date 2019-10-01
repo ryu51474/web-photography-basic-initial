@@ -1,0 +1,9 @@
+//los mixings siempre van primero de todo, como las variables y constantes
+@import 'mixins/breakpoints.scss';
+@import 'base/normalize.scss'; //la extensión no es necesaria
+@import 'base/base';
+
+@import 'blocks/header.scss';
+@import 'blocks/topbar.scss';
+@import 'blocks/aside.scss';
+@import 'blocks/main.scss';

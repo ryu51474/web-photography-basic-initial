@@ -1,0 +1,30 @@
+// esto es un MIXIN o lo que se llama en programacion POO (javascript por ejemplo) una funcion.
+
+$mobile:360px;
+$tablet:361px;
+$laptop:1024px;
+$desktop:1400px;
+
+@mixin mobile { // equivalente a "const mobile(){}" o "function mobile (){}" o "mobile=()=>{}" en javascript
+  @media screen and (max-width: $mobile){
+      @content;
+  }  
+}
+
+@mixin tablet { // equivalente a "const mobile(){}" o "function mobile (){}" o "mobile=()=>{}" en javascript
+  @media screen and (max-width: $tablet){
+      @content;
+  }  
+}
+
+@mixin laptop { // equivalente a "const mobile(){}" o "function mobile (){}" o "mobile=()=>{}" en javascript
+  @media screen and (max-width: $laptop){
+      @content;
+  }  
+}
+
+@mixin desktop { // equivalente a "const mobile(){}" o "function mobile (){}" o "mobile=()=>{}" en javascript
+  @media screen and (max-width: $desktop){
+      @content;
+  }  
+}
