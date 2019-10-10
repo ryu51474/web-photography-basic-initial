@@ -4,7 +4,6 @@ body {
     min-height: 100vh;
 
     //estilos de escritorio
-    
 
     @include laptop{ //esto es un breakpoint o mediaquery
         //background-color: red;
